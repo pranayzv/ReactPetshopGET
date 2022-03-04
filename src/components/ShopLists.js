@@ -1,5 +1,7 @@
 import React, {Component} from "react"
+import './shopstyle.css';
 import axios from "axios";
+
 
 
 class ShopLists extends Component {
@@ -28,11 +30,23 @@ class ShopLists extends Component {
         const {shops , errorMsg} = this.state
         return (
             <div>
-                <h1>Petshop's Available:</h1>
-                {
-                    shops.length ?
-                    shops.map(shop => <div key={shop.id}><label>{shop.name}</label></div>): null
-                }   
+                 <h1>Petshop's Available:</h1>
+                 <table>
+                 <tbody>
+          <tr>
+            <th>Petshop Name</th>
+            <th>Status</th>
+          </tr>
+          {shops.map(shop => (
+            <tr key={shop.id}>
+              <td>{shop.name}</td>
+              <td>{shop.status}</td>
+            </tr>
+          ))}
+        </tbody>
+    </table>
+
+                
                 {
                     errorMsg ? <h1>{errorMsg}</h1> : null
                 }
