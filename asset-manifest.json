@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReactPetshopGET/static/css/main.99d8d050.css",
-    "main.js": "/ReactPetshopGET/static/js/main.2e7df172.js",
+    "main.css": "/ReactPetshopGET/static/css/main.f7eba4d4.css",
+    "main.js": "/ReactPetshopGET/static/js/main.86423fc1.js",
     "static/js/787.d8171be9.chunk.js": "/ReactPetshopGET/static/js/787.d8171be9.chunk.js",
     "static/media/logo.svg": "/ReactPetshopGET/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ReactPetshopGET/index.html",
-    "main.99d8d050.css.map": "/ReactPetshopGET/static/css/main.99d8d050.css.map",
-    "main.2e7df172.js.map": "/ReactPetshopGET/static/js/main.2e7df172.js.map",
+    "main.f7eba4d4.css.map": "/ReactPetshopGET/static/css/main.f7eba4d4.css.map",
+    "main.86423fc1.js.map": "/ReactPetshopGET/static/js/main.86423fc1.js.map",
     "787.d8171be9.chunk.js.map": "/ReactPetshopGET/static/js/787.d8171be9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99d8d050.css",
-    "static/js/main.2e7df172.js"
+    "static/css/main.f7eba4d4.css",
+    "static/js/main.86423fc1.js"
   ]
 }
